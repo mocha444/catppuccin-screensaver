@@ -8,7 +8,7 @@ From this folder, run PowerShell:
 
 ```powershell
 Set-ExecutionPolicy -Scope Process Bypass
-.\rebuild.ps1
+.\rebuild-and-install.ps1
 ```
 
 This creates both files in `dist`:
@@ -32,4 +32,4 @@ Run PowerShell as Administrator and execute:
 
 ## Development
 
-After changing `CatppuccinSaver.cpp`, run `rebuild.ps1` to regenerate both distributable files. The project uses the Visual Studio MSVC build tools and Windows SDK.
+After changing `CatppuccinSaver.cpp`, run `rebuild-and-install.ps1` as Administrator to regenerate both distributable files and install the fresh screensaver. The project uses the Visual Studio MSVC build tools and Windows SDK.
