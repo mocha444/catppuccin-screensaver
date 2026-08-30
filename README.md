@@ -4,10 +4,9 @@ A native Windows screensaver inspired by Catppuccin Mocha. It includes smooth hi
 
 ## Build
 
-From this folder, run PowerShell:
+Open PowerShell as Administrator, change to this folder, and run:
 
 ```powershell
-Set-ExecutionPolicy -Scope Process Bypass
 .\rebuild-and-install.ps1
 ```
 
